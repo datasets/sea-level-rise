@@ -1,0 +1,53 @@
+{
+  "name": "glacier-mass-balance",
+  "title": "Average cumulative mass balance of reference Glaciers worldwide",
+  "description": "This is cumulative change in mass balance of a set of reference glaciers worldwide beginning in 1945. The values represents the average of all the glaciers that were measured. Negative values indicate a net loss of ice and snow compared with the base year of 1945. For consistency, measurements are in meters of water equivalent, which represent changes in the average thickness of a glacier.",
+  "homepage": "http://www3.epa.gov/climatechange/science/indicators/snow-ice/glaciers.html",
+  "license": "ODC-PDDL-1.0",
+  "sources": [
+    {
+      "name": "Average cumulative mass balance of reference Glaciers worldwide",
+      "web": "http://www3.epa.gov/climatechange/images/indicator_downloads/glaciers_fig-1.csv"
+    }
+  ],
+  "resources": [
+    {
+      "name": "glaciers",
+      "path": "data/glaciers.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "Year",
+            "type": "date",
+            "description": "Year of measurement"
+          },
+          {
+            "name": "Mean cumulative mass balance",
+            "type": "number",
+            "description": "Average mass of measured glacier"
+          },
+          {
+            "name": "Number of observations",
+            "type": "number",
+            "description": "Number of glaciers observed"
+          }
+        ]
+      }
+    }
+  ],
+  "views": [
+    {
+      "id": "graph",
+      "label": "Graph",
+      "resourceName": "glaciers",
+      "type": "Graph",
+      "state": {
+        "group": "Year",
+        "series": ["Mean cumulative mass balance"],
+        "graphType": "lines-and-points"
+      }
+    }
+  ]
+}
