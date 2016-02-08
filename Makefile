@@ -2,6 +2,6 @@ all:
 	python2 scripts/process.py
 
 clean:
-	rm data/* archive/*
+	rm -r data/* archive/*
 
 .PHONY: clean
