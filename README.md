@@ -7,15 +7,21 @@ This data contains "cumulative changes in sea level for the world’s oceans sin
 ### Sources
 
 1. 
-  * Name: CSIRO (Commonwealth Scientific and Industrial Research Organisation)
-  * Web: http://www.cmar.csiro.au/sealevel/sl_data_cmar.html
-1. 
   * Name: EPA (United States Environmental Protection Agency)
-  * Web: http://www3.epa.gov/climatechange/science/indicators/oceans/sea-level.html
+  * Web: http://www3.epa.gov/climatechange/images/indicator_downloads/sea-level_fig-1.csv
+1. 
+  * Name: CSIRO (Commonwealth Scientific and Industrial Research Organisation)
+  * Web: http://www.cmar.csiro.au/sealevel/GMSL_SG_2011_up.html
 
 ### Key Findings:
 
 We estimate the rise in global average sea level from satellite altimeter data for 1993–2009 and from coastal and island sea-level measurements from 1880 to 2009. For 1993–2009 and after correcting for glacial isostatic adjustment, the estimated rate of rise is 3.2 ± 0.4 mm year−1 from the satellite data and 2.8 ± 0.8 mm year−1 from the in situ data. The global average sea-level rise from 1880 to 2009 is about 210 mm. The linear trend from 1900 to 2009 is 1.7 ± 0.2 mm year−1 and since 1961 is 1.9 ± 0.4 mm year−1. There is considerable variability in the rate of rise during the twentieth century but there has been a statistically significant acceleration since 1880 and 1900 of 0.009 ± 0.003 mm year−2 and 0.009 ± 0.004 mm year−2, respectively. Since the start of the altimeter record in 1993, global average sea level rose at a rate near the upper end of the sea level projections of the Intergovernmental Panel on Climate Change’s Third and Fourth Assessment Reports. However, the reconstruction indicates there was little net change in sea level from 1990 to 1993, most likely as a result of the volcanic eruption of Mount Pinatubo in 1991.
+
+### Further Information
+
+For further information you may visit the following websites:
+*[EPA](http://www3.epa.gov/climatechange/science/indicators/oceans/sea-level.html)
+*[CSIRO](http://www.cmar.csiro.au/sealevel/sl_data_cmar.html)
 
 ### Acknowledgements 
 
