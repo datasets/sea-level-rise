@@ -20,8 +20,10 @@ We estimate the rise in global average sea level from satellite altimeter data f
 ### Further Information
 
 For further information you may visit the following websites:
-*[EPA](http://www3.epa.gov/climatechange/science/indicators/oceans/sea-level.html)
-*[CSIRO](http://www.cmar.csiro.au/sealevel/sl_data_cmar.html)
+
+* [EPA](http://www3.epa.gov/climatechange/science/indicators/oceans/sea-level.html)
+
+* [CSIRO](http://www.cmar.csiro.au/sealevel/sl_data_cmar.html)
 
 ### Acknowledgements 
 
