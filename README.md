@@ -25,7 +25,7 @@ For further information you may visit the following websites:
 
 * [CSIRO](http://www.cmar.csiro.au/sealevel/sl_data_cmar.html)
 
-### Acknowledgements 
+### Acknowledgments 
 
 * Funding and other support
   * CSIRO Marine and Atmospheric Research through the Wealth from Oceans National Research Flagship
@@ -60,7 +60,7 @@ All other figures are copyright. Please do not copy without the owner's permissi
 
 ### CSIRO 
 
-> The paper describing this data recostruction is: Church, J. A. and N.J. White (2011), Sea-level rise from the late 19th to the early 21st Century. Surveys in Geophysics, doi:10.1007/s10712-011-9119-1. This paper is published "Open Access" and is available as a pdf from [here](http://www.springerlink.com/content/h2575k28311g5146/).
+> The paper describing this data reconstruction is: Church, J. A. and N.J. White (2011), Sea-level rise from the late 19th to the early 21st Century. Surveys in Geophysics, doi:10.1007/s10712-011-9119-1. This paper is published "Open Access" and is available as a pdf from [here](http://www.springerlink.com/content/h2575k28311g5146/).
 
 
 
