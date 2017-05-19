@@ -16,7 +16,7 @@
   ],
   "resources": [
     {
-      "name": "CSIRO_ALT_gmsl_mo_2015",
+      "name": "csiro_alt_gmsl_mo_2015",
       "path": "data/CSIRO_ALT_gmsl_mo_2015.csv",
       "format": "csv",
       "mediatype": "text/csv",
@@ -25,6 +25,7 @@
           {
             "name": "Time",
             "type": "date",
+            "format": "any",
             "description": "Year and month of GMSL calculation (YYYY-MMM)"
           },
           {
@@ -36,7 +37,7 @@
       }
     },
     {
-      "name": "CSIRO_ALT_gmsl_yr_2015",
+      "name": "csiro_alt_gmsl_yr_2015",
       "path": "data/CSIRO_ALT_gmsl_yr_2015.csv",
       "format": "csv",
       "mediatype": "text/csv",
@@ -45,6 +46,7 @@
           {
             "name": "Time",
             "type": "date",
+            "format": "any",
             "description": "Year of GMSL calculation (YYYY)"
           },
           {
@@ -56,7 +58,7 @@
       }
     },
     {
-      "name": "CSIRO_Recons_gmsl_mo_2015",
+      "name": "csiro_recons_gmsl_mo_2015",
       "path": "data/CSIRO_Recons_gmsl_mo_2015.csv",
       "format": "csv",
       "mediatype": "text/csv",
@@ -65,6 +67,7 @@
           {
             "name": "Time",
             "type": "date",
+            "format": "any",
             "description": "Year and month of GMSL calculation (YYYY-MMM)"
           },
           {
@@ -73,7 +76,7 @@
             "description": "Reconstructed Global Mean Sea Level in mm"
           },
           {
-            "name": "uncertainty",
+            "name": "GMSL uncertainty",
             "type": "number",
             "description": "uncertainty due to reconstruction"
           }
@@ -81,7 +84,7 @@
       }
     },
     {
-      "name": "CSIRO_Recons_gmsl_yr_2015",
+      "name": "csiro_recons_gmsl_yr_2015",
       "path": "data/CSIRO_Recons_gmsl_yr_2015.csv",
       "format": "csv",
       "mediatype": "text/csv",
@@ -90,6 +93,7 @@
           {
             "name": "Time",
             "type": "date",
+            "format": "any",
             "description": "Year of GMSL calculation (YYYY)"
           },
           {
@@ -98,7 +102,7 @@
             "description": "Reconstructed Global Mean Sea Level in mm"
           },
           {
-            "name": "uncertainty",
+            "name": "GMSL uncertainty",
             "type": "number",
             "description": "Uncertainty due to reconstruction"
           }
@@ -115,6 +119,7 @@
           {
             "name": "Year",
             "type": "date",
+            "format": "any",
             "description": "Year of measurement (YYYY)"
           },
           {
@@ -123,12 +128,12 @@
             "description": "Comulative changes (in inches) in sea level for the world’s oceans based on the combination of long-term tide gauge measurements and recent satellite measurements."
           },
           {
-            "name": "Lower error bound",
+            "name": "Lower Error Bound",
             "type": "number",
             "description": "inches"
           },
           {
-            "name": "Upper error bound",
+            "name": "Upper Error Bound",
             "type": "number",
             "description": "inches"
           },
