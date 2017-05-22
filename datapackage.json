@@ -148,14 +148,13 @@
   ],
   "views": [
     {
-      "id": "graph",
-      "label": "Graph",
-      "resourceName": "epa-sea-level",
-      "type": "Graph",
-      "state": {
+      "name": "graph",
+      "resources": ["epa-sea-level"],
+      "specType": "simple",
+      "spec": {
         "group": "Year",
         "series": ["CSIRO Adjusted Sea Level", "NOAA Adjusted Sea Level"],
-        "graphType": "lines-and-points"
+        "type": "line"
       }
     }
   ]
