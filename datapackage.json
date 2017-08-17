@@ -7,11 +7,13 @@
   "sources": [
     {
       "name": "EPA (United States Environmental Protection Agency)",
-      "web": "http://www3.epa.gov/climatechange/images/indicator_downloads/sea-level_fig-1.csv"
+      "web": "http://www3.epa.gov/climatechange/images/indicator_downloads/sea-level_fig-1.csv",
+      "title": "EPA (United States Environmental Protection Agency)"
     },
     {
       "name": "CSIRO (Commonwealth Scientific and Industrial Research Organisation)",
-      "web": "http://www.cmar.csiro.au/sealevel/GMSL_SG_2011_up.html"
+      "web": "http://www.cmar.csiro.au/sealevel/GMSL_SG_2011_up.html",
+      "title": "CSIRO (Commonwealth Scientific and Industrial Research Organisation)"
     }
   ],
   "resources": [
@@ -149,11 +151,16 @@
   "views": [
     {
       "name": "graph",
-      "resources": ["epa-sea-level"],
+      "resources": [
+        "epa-sea-level"
+      ],
       "specType": "simple",
       "spec": {
         "group": "Year",
-        "series": ["CSIRO Adjusted Sea Level", "NOAA Adjusted Sea Level"],
+        "series": [
+          "CSIRO Adjusted Sea Level",
+          "NOAA Adjusted Sea Level"
+        ],
         "type": "line"
       }
     }
