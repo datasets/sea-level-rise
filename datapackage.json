@@ -3,16 +3,22 @@
   "title": "Global Average Absolute Sea Level Change, 1880-2014",
   "description": "This data contains cumulative changes in sea level for the world’s oceans since 1880, based on a combination of long-term tide gauge measurements and recent satellite measurements.",
   "homepage": "http://www3.epa.gov/climatechange/science/indicators/oceans/sea-level.html",
-  "license": "ODC-PDDL-1.0",
+  "licenses": [
+    {
+      "name": "ODC-PDDL-1.0",
+      "path": "http://opendatacommons.org/licenses/pddl/",
+      "title": "Open Data Commons Public Domain Dedication and License v1.0"
+    }
+  ],
   "sources": [
     {
       "name": "EPA (United States Environmental Protection Agency)",
-      "web": "http://www3.epa.gov/climatechange/images/indicator_downloads/sea-level_fig-1.csv",
+      "path": "http://www3.epa.gov/climatechange/images/indicator_downloads/sea-level_fig-1.csv",
       "title": "EPA (United States Environmental Protection Agency)"
     },
     {
       "name": "CSIRO (Commonwealth Scientific and Industrial Research Organisation)",
-      "web": "http://www.cmar.csiro.au/sealevel/GMSL_SG_2011_up.html",
+      "path": "http://www.cmar.csiro.au/sealevel/GMSL_SG_2011_up.html",
       "title": "CSIRO (Commonwealth Scientific and Industrial Research Organisation)"
     }
   ],
