@@ -38,14 +38,7 @@ jobs:
         python -m venv venv
         source venv/bin/activate
         pip install --upgrade pip
-        pip install -r scripts/requirements.txt
-
-    - name: Install Xvfb and dependencies
-      run: |
-        sudo apt-get update
-        sudo apt-get install -y xvfb
-        sudo apt-get install -y chromium-browser
-     
+        pip install -r scripts/requirements.txt    
 
     - name: Run Make Clean
       run: |
