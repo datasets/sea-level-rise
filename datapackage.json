@@ -1,7 +1,7 @@
 {
   "name": "sea-level-rise",
   "title": "Global Average Absolute Sea Level Change, 1880-2014",
-  "description": "This data contains cumulative changes in sea level for the world’s oceans since 1880, based on a combination of long-term tide gauge measurements and recent satellite measurements.",
+  "description": "This data contains cumulative changes in sea level for the world\u2019s oceans since 1880, based on a combination of long-term tide gauge measurements and recent satellite measurements.",
   "homepage": "http://www3.epa.gov/climatechange/science/indicators/oceans/sea-level.html",
   "licenses": [
     {
@@ -133,7 +133,7 @@
           {
             "name": "CSIRO Adjusted Sea Level",
             "type": "number",
-            "description": "Comulative changes (in inches) in sea level for the world’s oceans based on the combination of long-term tide gauge measurements and recent satellite measurements."
+            "description": "Comulative changes (in inches) in sea level for the world\u2019s oceans based on the combination of long-term tide gauge measurements and recent satellite measurements."
           },
           {
             "name": "Lower Error Bound",
@@ -170,5 +170,6 @@
         "type": "line"
       }
     }
-  ]
+  ],
+  "collection": "climate-change"
 }
