@@ -24,8 +24,8 @@
   ],
   "resources": [
     {
-      "name": "csiro_alt_gmsl_mo_2015",
-      "path": "data/CSIRO_ALT_gmsl_mo_2015.csv",
+      "name": "csiro_alt_seas_inc",
+      "path": "data/CSIRO_Alt_seas_inc.csv",
       "format": "csv",
       "mediatype": "text/csv",
       "schema": {
@@ -37,16 +37,21 @@
             "description": "Year and month of GMSL calculation (YYYY-MMM)"
           },
           {
-            "name": "GMSL",
+            "name": "GMSL (monthly)",
             "type": "number",
-            "description": "Global Mean Sea Level in mm"
+            "description": "Global Mean Sea Level - monthly value in mm"
+          },
+          {
+            "name": "GMSL (smoothed)",
+            "type": "number",
+            "description": "Global Mean Sea Level - smoothed value in mm"
           }
         ]
       }
     },
     {
-      "name": "csiro_alt_gmsl_yr_2015",
-      "path": "data/CSIRO_ALT_gmsl_yr_2015.csv",
+      "name": "csiro_alt_yearly",
+      "path": "data/CSIRO_Alt_yearly.csv",
       "format": "csv",
       "mediatype": "text/csv",
       "schema": {
@@ -58,9 +63,9 @@
             "description": "Year of GMSL calculation (YYYY)"
           },
           {
-            "name": "GMSL",
+            "name": "GMSL (yearly)",
             "type": "number",
-            "description": "Global Mean Sea Level in mm"
+            "description": "Global Mean Sea Level - yearly average in mm"
           }
         ]
       }
@@ -92,8 +97,8 @@
       }
     },
     {
-      "name": "csiro_recons_gmsl_yr_2015",
-      "path": "data/CSIRO_Recons_gmsl_yr_2015.csv",
+      "name": "csiro_recons_gmsl_yr_2019",
+      "path": "data/CSIRO_Recons_gmsl_yr_2019.csv",
       "format": "csv",
       "mediatype": "text/csv",
       "schema": {
